@@ -1,9 +1,11 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: 'Reproducible Research: Peer Assessment 1'
 author: "Frank DU"
 date: "9/4/2020"
-output: html_document
-keep_md: TRUE
+output:
+  pdf_document: default
+  html_document: default
+keep_md: yes
 ---
 ```{r, echo=FALSE}
 knitr::opts_chunk$set(warning = FALSE)
